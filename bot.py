@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'NjkwMTE4NDkwNzUyOTQyMDgw.XnmKbw.y70HlXtOj8epveR7yzIUf78pTvU'
+TOKEN = 'your_token_here'
 
 description = '''idfk'''
 bot = commands.Bot(command_prefix='baconz ', description=description)
