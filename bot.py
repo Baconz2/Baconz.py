@@ -20,4 +20,9 @@ async def ping(ctx):
     """later(tm)"""
     await ctx.send("brug moment")
 
+@bot.command()
+async def invite(ctx):
+    """bot invite"""
+    await ctx.send("https://discordapp.com/api/oauth2/authorize?client_id=690118490752942080&permissions=0&scope=bot")
+
 bot.run(TOKEN)
